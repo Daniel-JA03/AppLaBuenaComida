@@ -149,35 +149,6 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemClickListener {
     }
 
     private fun obtenerDatos(posPlato: Int){
-        /*var preMenu:Int=0;
-        var dely:Int=5;
-        var bolsa:Int=2;
-        var totalAdici:Int=0;
-        var total:Int=0;
-        return when (posPlato) {
-            0 -> {
-                preMenu = 18
-            }
-            1 -> {
-                preMenu = 17
-            }
-            2 -> {
-                preMenu = 20
-            }
-            else -> {
-                preMenu = 0
-            }
-        }
-
-        totalAdici = dely + bolsa
-        total = preMenu + totalAdici
-
-        tvMenuC.setText("S/. " + preMenu)
-        chkbolsa.setText("S/. " + bolsa)
-        chkdelivery.setText("S/. " + dely)
-        tvAdicionalC.setText("S/. " + totalAdici)
-        tvTotal.setText(("S/. " + total))*/
-
 
         var preMenu = 0
         var dely = if(chkdelivery.isChecked) 5 else 0
